@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.3.0",
+	"FriendlyName": "Innoactive Portal Plugin",
+	"Description": "Upload and stream your application to Innoactive Portal",
+	"Category": "Editor",
+	"CreatedBy": "Innoactive",
+	"CreatedByURL": "https://innoactive.de/",
+	"DocsURL": "http://developers.innoactive.de/docs/",
+	"MarketplaceURL": "",
+	"SupportURL": "https://jira.innoactive.de/servicedesk/customer/portal/3",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "InnoactivePortal",
+			"Type": "Editor",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		}
+	]
+}
