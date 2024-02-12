@@ -72,10 +72,6 @@
 		{
 			"Name": "HttpBlueprint",
 			"Enabled": true
-		},
-		{
-			"Name": "InnoactivePortal",
-			"Enabled": true
 		}
 	]
 }
